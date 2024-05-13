@@ -1,0 +1,12 @@
+{
+  "index": {
+    "title": "Discord",
+    "hidden": true
+  },
+  "ecosystem": {
+    "type": "page",
+    "title": "Ecosystem",
+    "href": "https://ecosystem.bunyjs.com",
+    "newWindow": true
+  }
+}

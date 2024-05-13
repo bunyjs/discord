@@ -1,0 +1,44 @@
+{
+  "name": "@buny/discord",
+  "description": "discord module for BunyJS",
+  "version": "1.0.0",
+  "homepage": "https://discord.bunyjs.com",
+  "repository": "https://github.com/bunyjs/discord/tree/main/packages/discord",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint --fix",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.2"
+  },
+  "peerDependencies": {
+    "@buny/di": "file:../../../buny/packages/di",
+    "@buny/ioc": "file:../../../buny/packages/ioc",
+    "@buny/core": "file:../../../buny/packages/core",
+    "@buny/config": "file:../../../buny/packages/config",
+    "@buny/logger": "file:../../../buny/packages/logger",
+    "@buny/event": "file:../../../buny/packages/event",
+    "@buny/shared": "file:../../../buny/packages/shared"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "buny",
+    "discord"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}
